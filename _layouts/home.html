@@ -3,43 +3,31 @@ layout: default
 ---
 
 <header>
-{% if site.theme_config.show_navbar == true %}
-  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
-  <div class="dashed"></div>
-{% endif %}
-
+  <!-- {%include header_links.html%} -->
+  <!-- <div class="dashed"></div> -->
   <h1>{{ site.title }}</h1>
-  {% if site.theme_config.show_description == true %}
-    <p>{{ site.description }}</p>
-  {% endif %}
+  
 </header>
 
 {{ content }}
 
-{% if site.theme_config.show_projects == true %}
-  <h2>{{ site.theme_config.home.title_projects }}</h2>
-  {% include card_list.html collection=site.data.home.project_entries %}
-{% endif %}
+<!-- ABOUT SECTION -->
+<h2 id="About">About</h2>
+<p> Undergraduate studying computer engineering, math, statistics, and economics between Emory and Georgia Tech. Proven communication skills as a tutor and published undergraduate researcher. Analytical background in data science and technical coursework in software design. </p> 
 
-{% if site.theme_config.show_misc_list == true %}
-  <h2>{{ site.theme_config.home.title_misc_list }}</h2>
-  {% include vertical_list.html collection=site.data.home.misc_entries %}
-{% endif %}
+<!-- <img src="./headshot.jpeg" alt="Headshot" style="width:200px;height:200px;" align="left">  -->
+{% include horizontal_list.html collection=site.data.home.footer_entries %}
 
-{% if site.theme_config.show_blog == true %}
-  <h2>{{ site.theme_config.home.title_blog }}</h2>
-  {% include post_list.html %}
-{% endif %}
+<!-- PROJECT SECTION -->
+<h2>Projects/Research</h2>
+{% include vertical_list.html collection=site.data.home.projects %}
 
-{% if site.theme_config.show_old_projects == true %}
-  <h2>{{ site.theme_config.home.title_old_projects }}</h2>
-  {% include card_list.html collection=site.data.home.old_project_entries %}
-{% endif %}
+<!-- EXPERIENCE -->
+<h2 id="Experience">Work Experience</h2>
+{% include card_list.html collection=site.data.home.old_project_entries %}
+
+<!-- EDUCATION -->
+<h2 id="Education">Education</h2>
+{% include card_list.html collection=site.data.home.education %}
 
 
-{% if site.theme_config.show_footer == true %}
-  <footer>
-    <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.home.footer_entries %}
-  </footer>
-{% endif %}

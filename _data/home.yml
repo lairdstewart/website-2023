@@ -1,101 +1,94 @@
 navbar_entries:
-  - title: about
-    url: about
+  - title: About
+    url: #About
 
-  - title: blog
-    url: blog
+  - title: Projects
+    url: https://www.google.com
 
-  - title: website
-    url: https://www.abhinav.co
+  - title: Experience
+    url: #OldProjects
 
-project_entries:
-  - title: Project 1
+research:
+  - title: SIR MODEL OF TIME DEPENDENT DRUG AND VACCINE DISTRIBUTION ON COVID-19
     url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+    desc:
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+education:
+  - title: Emory University
+    url: https://www.emory.edu/home/index.html
+    desc: B.S. Applied Math and Statistics, Minor in Economics
+    img: ./Emory.png
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: Georgia Tech
+    url:  https://www.gatech.edu
+    desc: B.S. Computer Engineering
+    img: ./GeorgiaTech.png
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+  - title: ZenVR
+    url: https://www.zenvrapp.com
+    desc: Product management intern
+    img: ./ZenVR.png
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
+  - title: Allegion
+    url: https://www.allegion.com
+    desc: Software product management intern
+    img: ./Allegion.png
 
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
+  - title: Equifax
+    url: https://www.equifax.com
+    desc: Data science itern
+    img: ./Equifax.png
 
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: Wells Fargo
+    url: https://www.wellsfargo.com
+    desc: Wealth and Investment Managemement Intern
+    img: ./WellsFargo.jpeg
+
+  - title: Semple Brown
+    url: https://www.semplebrown.com
+    desc: Architecture Intern
+    img: ./SempleBrown.jpeg
 
 footer_entries:
-  - title: abhinav's homepage
-    url: https://www.abhinav.co
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/lairdstewart 
 
-  - title: twitter
-    url: https://twitter.com/abhinav
+  - title: Resume
+    url: https://drive.google.com/file/d/1X1xTWGvOYtoD5Z_-2Wa34ffqR86myxPv/view?usp=sharing 
 
-  - title: github
-    url: https://github.com/abhinavs
+  - title: Github
+    url: https://github.com/lairdstewart
 
-  - title: feed
-    url: feed.xml
+  - title: Email
+    url: mailto:laird.stewart@gatech.edu 
 
-misc_entries:
-  - title: this is an example vertical list
-    url: false
+  - title: Blog
+    url: 
 
-  - title: you can show or hide using a boolean flag in _config.yml
-    url: false
-
-  - title: and you can add data in _data/home.yml
-    url: false
-
-  - title: Blog posts
-    post_list: true
-    url: false
-
-  - title: moonwalk on the Internet
-    url: false
+projects:
+  - title: SIR Model of Time Dependent Drug and Vaccine Distribution on COVID-19
+    url: overview-post
     entries:
-      - title: on Github
-        url: https://github.com/abhinavs/moonwalk
-
-      - title: originally built for abhinav's homepage
-        url: https://www.abhinav.co
-
-      - title: this list is scalable and can be nested
+      - title: Published in SIAM's undergraduate research journal
         url: false
-        entries:
-          - title: this is nested inside a nested list
-            url: false
 
-          - title: it is easy to use, see _data/home.yml to see how to configure it.
-            url: false
+  - title: Time-Block Planner GUI
+    url: overview-post
+    entries:
+      - title: JavaFX GUI for simple time-block planning.
+        url: false
+
+      - title: More info here
+        url: false
+
+  - title: Chess App
+    url: overview-post
+    entries:
+      - title: 2-player chess app built in python
+        url: false
+
+
 
 

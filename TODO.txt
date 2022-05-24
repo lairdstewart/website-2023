@@ -1,0 +1,12 @@
+TODO
+
+Current
+
+Backlog
+- project cards not centered on page 
+- personal bio
+- portfolio projets
+- previous work section
+
+No longer relevant
+- stop highlighting after link to locatino on page 
