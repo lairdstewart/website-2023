@@ -1,0 +1,25 @@
+<ul class="horizontal-list">
+    {% for item in include.collection %}
+  
+      <li class="big_card">
+        <a href="{{ item.url }}">
+          {% if item.img != false %}
+          <img src={{item.img}} alt="img" style="width:280px;height:280px;">
+          {% endif %}
+  
+          <span class="header">
+            {{ item.title }}
+          </span>
+  
+          {% if item.desc != false %}
+          <p class="body">
+            {{ item.desc }}
+          </p>
+          {% endif %}
+  
+        </a>
+      </li>
+  
+    {% endfor %}
+  </ul>
+  

@@ -1,10 +1,14 @@
+<!-- <style>
+  span {text-align: center;}
+</style> -->
+
 <ul class="horizontal-list">
   {% for item in include.collection %}
 
     <li class="card">
       <a href="{{ item.url }}" target="_blank">
         {% if item.img != false %}
-        <img src={{item.img}} alt="img" style="width:100px;height:100px;">
+        <img src={{item.img}} alt="img" style="width:80px;height:80px;">
         {% endif %}
 
         <span class="header">

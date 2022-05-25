@@ -8,47 +8,54 @@ navbar_entries:
   - title: Experience
     url: #OldProjects
 
-research:
-  - title: SIR MODEL OF TIME DEPENDENT DRUG AND VACCINE DISTRIBUTION ON COVID-19
-    url: overview-post
-    desc:
 
 education:
-  - title: Emory University
-    url: https://www.emory.edu/home/index.html
-    desc: B.S. Applied Math and Statistics, Minor in Economics
-    img: ./Emory.png
+  - title: "B.S. in Applied Math and Statistics, Minor in Economics @ Emory University"
+    url: false
 
-  - title: Georgia Tech
-    url:  https://www.gatech.edu
-    desc: B.S. Computer Engineering
-    img: ./GeorgiaTech.png
+  - title: B.S. in Computer Engineering @ Georgia Institute of Technology
+    url: false
+
+  # - title: Emory University
+  #   url: https://www.emory.edu/home/index.html
+  #   desc: B.S. Applied Math and Statistics, Minor in Economics
+  #   img: ./Emory.png
+
+  # - title: Georgia Tech
+  #   url:  https://www.gatech.edu
+  #   desc: B.S. Computer Engineering
+  #   img: ./GeorgiaTech.png
 
 
 old_project_entries:
-  - title: ZenVR
+  - title: Product Manager @ZenVR
     url: https://www.zenvrapp.com
-    desc: Product management intern
+    desc: 2022 - Present
     img: ./ZenVR.png
 
-  - title: Allegion
+  - title: Product Management Intern 
     url: https://www.allegion.com
-    desc: Software product management intern
+    desc: Summer 2022
     img: ./Allegion.png
 
-  - title: Equifax
+  - title: Data Science Intern
     url: https://www.equifax.com
-    desc: Data science itern
+    desc: Summer 2021
     img: ./Equifax.png
 
-  - title: Wells Fargo
+  - title: Wealth and Investment Managemement Intern
     url: https://www.wellsfargo.com
-    desc: Wealth and Investment Managemement Intern
-    img: ./WellsFargo.jpeg
+    desc: Summer 2020
+    img: ./WellsFargo.png
 
-  - title: Semple Brown
+  - title: Linear Algebra Tutor
+    url: https://www.emory.edu/home/index.html
+    desc: Spring 2019 - Spring 2020
+    img: ./Emory.png
+
+  - title: Architecture Intern
     url: https://www.semplebrown.com
-    desc: Architecture Intern
+    desc: Spring 2018
     img: ./SempleBrown.jpeg
 
 footer_entries:
@@ -67,27 +74,54 @@ footer_entries:
   - title: Blog
     url: 
 
-projects:
+research: 
   - title: SIR Model of Time Dependent Drug and Vaccine Distribution on COVID-19
-    url: overview-post
+    url: false
     entries:
-      - title: Published in SIAM's undergraduate research journal
+      - title: Published in the Society for Indistural and Applied Mathematics with a team of four undergraduates in 2021.
         url: false
+      - title: Link
+        url: https://www.siam.org/publications/siuro/volume-14 
 
-  - title: Time-Block Planner GUI
-    url: overview-post
-    entries:
-      - title: JavaFX GUI for simple time-block planning.
-        url: false
-
-      - title: More info here
-        url: false
+projects:
+  - title: Time-Block Planner
+    url: time-block
+    desc: 
+    img: ./Planner.png
 
   - title: Chess App
-    url: overview-post
-    entries:
-      - title: 2-player chess app built in python
-        url: false
+    url: chess-app
+    desc: 
+    img: ./Chess.png
+
+  - title: "UofSC Master Modeler Competition 1st Place "
+    # url: https://sc.edu/study/colleges_schools/moore/research_and_centers/centers/center_for_applied_business_analytics/news_events/modeler_competition.php
+    url: master-modeler
+    desc:  
+    img: ./Modeler.png
+
+
+
+  # - title: Master Modeler 2022
+  #   url: overview-post
+  #   entries:
+  #     - title: Published in SIAM's undergraduate research journal
+  #       url: false
+
+  # - title: Time-Block Planner GUI
+  #   url: overview-post
+  #   entries:
+  #     - title: JavaFX GUI for simple time-block planning.
+  #       url: false
+
+  #     - title: More info here
+  #       url: false
+
+  # - title: Chess App
+  #   url: overview-post
+  #   entries:
+  #     - title: 2-player chess app built in python
+  #       url: false
 
 
 

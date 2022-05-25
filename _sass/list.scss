@@ -17,17 +17,18 @@ ul.horizontal-list {
 
 }
 
-.card {
+.big_card {
   padding: 1em;
-  border: 1px var(--text) solid;
-  width: 11em;
+  border: 0px var(--text) solid;
+  width: 18em;
   height: auto;
   text-align: center;
   font-size: 1em;
   align-items: center;
-  background-color: var(--bg-secondary);
-  margin-bottom: 0.8em;
-  border-radius: 0.8em;
+  // background-color: var(--bg-secondary);
+  background-color: rgb(51, 57, 68);
+  margin-bottom: 0.6em; // idk what this does
+  border-radius: 0.6em; // how curved the squares are 
 
   .header {
     color: var(--links);
@@ -40,7 +41,42 @@ ul.horizontal-list {
   hr {
     margin: 0.5em 0;
   }
+}
 
+.big_card:hover { 
+  background-color: rgb(86, 96, 113);
+  // background-color: rgb(255, 255, 255);
+}
+
+.card {
+  padding: 1em;
+  border: 0px var(--text) solid;
+  width: 11em;
+  height: auto;
+  text-align: center;
+  font-size: 1em;
+  align-items: center;
+  // background-color: var(--bg-secondary);
+  background-color: rgb(51, 57, 68);
+  margin-bottom: 0.6em; // idk what this does
+  border-radius: 0.6em; // how curved the squares are 
+
+  .header {
+    color: var(--links);
+  }
+
+  .body {
+    font-size: 0.8em;
+  }
+
+  hr {
+    margin: 0.5em 0;
+  }
+}
+
+.card:hover { 
+  background-color: rgb(86, 96, 113);
+  // background-color: rgb(255, 255, 255);
 }
 
 /* Responsive cards - one column layout on small screens */

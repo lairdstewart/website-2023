@@ -2,11 +2,12 @@ TODO
 
 Current
 
-Backlog
-- project cards not centered on page 
-- personal bio
-- portfolio projets
-- previous work section
 
-No longer relevant
-- stop highlighting after link to locatino on page 
+Backlog
+- icons/text in cards aren't centered vertically 
+- better bio
+- look at other color palets 
+
+- big cards have max width, can we fix that? 
+- project cards not centered on page 
+- straight line divide? 

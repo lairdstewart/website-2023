@@ -2,32 +2,71 @@
 layout: default
 ---
 
+<!-- STYLE -->
+<style>
+  /* h1 {text-align: center;} */
+  a { text-decoration: none; } /* links not underlined  */
+
+  .link{
+    font-size:16px;
+  }
+  .link:hover {
+    color: rgb(196, 222, 247);
+  }
+
+  .title{
+    font-size:40px;
+    font-family: 'Brush Script MT';
+  }
+</style>
+
+
+<!-- HEADER -->
 <header>
-  <!-- {%include header_links.html%} -->
-  <!-- <div class="dashed"></div> -->
-  <h1>{{ site.title }}</h1>
+  <h1 style="text-align:center">Hi, I'm Laird 🤙</h1>
   
+  <div style="text-align:center">
+    <a class="link" target="_blank" href="https://drive.google.com/file/d/1X1xTWGvOYtoD5Z_-2Wa34ffqR86myxPv/view?usp=sharing">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="link" target="_blank" href="https://www.linkedin.com/in/lairdstewart">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="link" target="_blank" href="https://github.com/lairdstewart">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="link" target="_blank" href="mailto:laird.stewart@gatech.edu ">Email</a>
+  </div>
+
+  <div class="dashed"></div>
+  <!-- {%include header_links.html%} -->
+  <!-- <h1>{{ site.title }}</h1> -->
 </header>
+
+
 
 {{ content }}
 
 <!-- ABOUT SECTION -->
-<h2 id="About">About</h2>
-<p> Undergraduate studying computer engineering, math, statistics, and economics between Emory and Georgia Tech. Proven communication skills as a tutor and published undergraduate researcher. Analytical background in data science and technical coursework in software design. </p> 
-
-<!-- <img src="./headshot.jpeg" alt="Headshot" style="width:200px;height:200px;" align="left">  -->
-{% include horizontal_list.html collection=site.data.home.footer_entries %}
+<h1 id="About">About</h2>
+<p>
+  <img src="./headshot.png" alt="Headshot" style="width:200px;height:200px;margin: 0px 0px 0px 20px;" align="right">
+  Undergraduate studying computer engineering, math, statistics, and economics between Emory and Georgia Tech. Proven communication skills as a tutor and published undergraduate researcher. Analytical background in data science and technical coursework in software design.
+  Undergraduate studying computer engineering, math, statistics, and economics 
+</p>  
 
 <!-- PROJECT SECTION -->
-<h2>Projects/Research</h2>
-{% include vertical_list.html collection=site.data.home.projects %}
+<h1>Projects</h2>
+{% include big_card_list.html collection=site.data.home.projects %}
+
+<!-- RESEARCH SECTION -->
+<h1 id="Experience">Research</h2>
+<ul>
+    <li>
+      SIR Model of Time Dependent Drug and Vaccine Distribution on COVID-19. <a class="link" href="https://www.siam.org/Portals/0/Documents/S136984PDF.pdf?ver=2021-05-11-095409-417" target="_blank">link</a>      
+    </li>
+</ul>
 
 <!-- EXPERIENCE -->
-<h2 id="Experience">Work Experience</h2>
+<h1 id="Experience">Work Experience</h2>
 {% include card_list.html collection=site.data.home.old_project_entries %}
 
 <!-- EDUCATION -->
-<h2 id="Education">Education</h2>
-{% include card_list.html collection=site.data.home.education %}
+<h1 id="Education">Education</h2>
+{% include vertical_list.html collection=site.data.home.education %}
 
 
