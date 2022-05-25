@@ -86,7 +86,6 @@ projects:
   - title: Time-Block Planner GUI in JavaFX
     url: time-block
     desc: Fall 2021
-    # img: ./Planner.png
     img: ./TimeBlock2.gif
 
   - title: SIR Model of Time Dependent Drug and Vaccine Distribution on COVID-19
@@ -103,7 +102,7 @@ projects:
   - title: 2-Player Chess App in Python
     url: chess-app
     desc: Summer 2020
-    img: ./Chess.png
+    img: ./Chess.gif
 
   - title: Grade Calculator GUI in JavaFX
     url: grade-calculator

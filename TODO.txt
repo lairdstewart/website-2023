@@ -1,6 +1,4 @@
 Current
 
 Backlog
-- links in markdown pages not lighting up or underlined. 
-
 - look at other color palets

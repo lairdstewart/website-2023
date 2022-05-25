@@ -113,6 +113,10 @@ blockquote {
 a {
   color: var(--links);
 }
+.a:hover {
+  color: rgb(0, 0, 0); // TODO see where this breaks ... 
+}
+
 *:target { background-color: var(--bg-secondary); }
 
 html.transition,
