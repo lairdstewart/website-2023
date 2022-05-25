@@ -32,10 +32,15 @@ ul.horizontal-list {
 
   .header {
     color: var(--links);
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 0em; 
   }
 
   .body {
     font-size: 0.8em;
+    margin-top: 0em;
+    margin-bottom: 0em;
   }
 
   hr {
@@ -58,19 +63,24 @@ ul.horizontal-list {
   align-items: center;
   // background-color: var(--bg-secondary);
   background-color: rgb(51, 57, 68);
-  margin-bottom: 0.6em; // idk what this does
+  margin-bottom: 0.6em; // how far cards stack vertically 
   border-radius: 0.6em; // how curved the squares are 
 
-  .header {
+  .header { // controlls header font of small cards 
     color: var(--links);
+    font-size: 1em;
+    margin-top: 1em; // idk why this doesn't work  
+    margin-bottom: 0em; // how much space underneath
   }
 
-  .body {
+  .body { // controlls body font of small cards 
     font-size: 0.8em;
+    margin-top: 0em; // it works here ... 
+    margin-bottom: 0em; // how much space underneath
   }
 
-  hr {
-    margin: 0.5em 0;
+  hr { // idk what this does 
+    margin: 0.5em 0; 
   }
 }
 

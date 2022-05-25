@@ -10,10 +10,9 @@ navbar_entries:
 
 
 education:
-  - title: "B.S. in Applied Math and Statistics, Minor in Economics @ Emory University"
-    url: false
-
   - title: B.S. in Computer Engineering @ Georgia Institute of Technology
+    url: false
+  - title: "B.S. in Applied Math and Statistics, Minor in Economics @ Emory University"
     url: false
 
   # - title: Emory University
@@ -30,10 +29,10 @@ education:
 old_project_entries:
   - title: Product Manager @ZenVR
     url: https://www.zenvrapp.com
-    desc: 2022 - Present
+    desc: Summer 2022 - Present
     img: ./ZenVR.png
 
-  - title: Product Management Intern 
+  - title: Software Product Management Intern 
     url: https://www.allegion.com
     desc: Summer 2022
     img: ./Allegion.png
@@ -84,21 +83,34 @@ research:
         url: https://www.siam.org/publications/siuro/volume-14 
 
 projects:
-  - title: Time-Block Planner
+  - title: Time-Block Planner GUI in JavaFX
     url: time-block
-    desc: 
-    img: ./Planner.png
+    desc: Fall 2021
+    # img: ./Planner.png
+    img: ./TimeBlock2.gif
 
-  - title: Chess App
-    url: chess-app
-    desc: 
-    img: ./Chess.png
+  - title: SIR Model of Time Dependent Drug and Vaccine Distribution on COVID-19
+    url: paper
+    desc:  Spring 2020 - Spring 2021
+    img: ./Paper.png
 
-  - title: "UofSC Master Modeler Competition 1st Place "
+  - title: Emory and UofSC Master Modeler Competition 1st Place 
     # url: https://sc.edu/study/colleges_schools/moore/research_and_centers/centers/center_for_applied_business_analytics/news_events/modeler_competition.php
     url: master-modeler
-    desc:  
+    desc:  Spring 2021
     img: ./Modeler.png
+
+  - title: 2-Player Chess App in Python
+    url: chess-app
+    desc: Summer 2020
+    img: ./Chess.png
+
+  - title: Grade Calculator GUI in JavaFX
+    url: grade-calculator
+    desc: Spring 2020
+    img: ./Grade.png
+
+  
 
 
 

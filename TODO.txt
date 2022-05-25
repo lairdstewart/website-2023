@@ -1,13 +1,6 @@
-TODO
-
 Current
 
-
 Backlog
-- icons/text in cards aren't centered vertically 
-- better bio
-- look at other color palets 
+- links in markdown pages not lighting up or underlined. 
 
-- big cards have max width, can we fix that? 
-- project cards not centered on page 
-- straight line divide? 
+- look at other color palets

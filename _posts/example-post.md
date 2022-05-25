@@ -76,6 +76,8 @@ Now a table:
 
 This is an image[^4]
 
+
+
 ---
 {: data-content="footnotes"}
 

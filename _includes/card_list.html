@@ -1,7 +1,3 @@
-<!-- <style>
-  span {text-align: center;}
-</style> -->
-
 <ul class="horizontal-list">
   {% for item in include.collection %}
 
@@ -11,9 +7,9 @@
         <img src={{item.img}} alt="img" style="width:80px;height:80px;">
         {% endif %}
 
-        <span class="header">
+        <p class="header">
           {{ item.title }}
-        </span>
+        </p>
 
         {% if item.desc != false %}
         <p class="body">
