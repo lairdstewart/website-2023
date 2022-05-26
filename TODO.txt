@@ -1,6 +1,8 @@
 Current
 
 Backlog
+- favicon 
+
 - when the browser is skinny, big cards take up only their size and small cards spread out. 
 
 - look at other color palets
