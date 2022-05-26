@@ -1,6 +1,8 @@
 Current
 
 Backlog
+- when the browser is skinny, big cards take up only their size and small cards spread out. 
+
 - look at other color palets
     - will have to paramaterize colorings everywhere ... could take a while (~45 min)
     - research new color pattern, play with it to see if it fits (~45 min)
