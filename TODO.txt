@@ -8,3 +8,10 @@ Backlog
 - look at other color palets
     - will have to paramaterize colorings everywhere ... could take a while (~45 min)
     - research new color pattern, play with it to see if it fits (~45 min)
+
+
+
+SETUP: 
+chruby ruby-3.1.2		# use new ruby not mac default (not sure how to make this default but yagni)
+bundle install
+bundle exec jekyll serve 

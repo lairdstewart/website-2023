@@ -11,6 +11,7 @@ navbar_entries:
 
 education:
   - title: B.S. in Computer Engineering @ Georgia Institute of Technology
+
     url: false
   - title: "B.S. in Applied Math and Statistics, Minor in Economics @ Emory University"
     url: false
@@ -71,9 +72,9 @@ footer_entries:
     url: mailto:laird.stewart@gatech.edu 
 
   - title: Blog
-    url: 
+    url: https://laird.substack.com 
 
-research: 
+research:  
   - title: SIR Model of Time Dependent Drug and Vaccine Distribution on COVID-19
     url: false
     entries:
@@ -83,6 +84,16 @@ research:
         url: https://www.siam.org/publications/siuro/volume-14 
 
 projects:
+  - title: Toward Optimal Real Time Head Worn Display Captioning Width
+    url: MUC
+    desc: Fall 2022
+    img: ./muc_square.png
+  
+  - title: Bop It!
+    url: bopit
+    desc: Fall 2022
+    img: ./bopit_external.jpeg
+
   - title: Time-Block Planner GUI in JavaFX
     url: time-block
     desc: Fall 2021

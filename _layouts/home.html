@@ -31,7 +31,8 @@ layout: default
     <a class="link" target="_blank" href="./Resume.pdf">Resume</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a class="link" target="_blank" href="https://www.linkedin.com/in/lairdstewart">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;
     <a class="link" target="_blank" href="https://github.com/lairdstewart">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a class="link" target="_blank" href="mailto:hlairdstew@gmail.com ">Email</a>
+    <a class="link" target="_blank" href="mailto:hlairdstew@gmail.com">Email</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a class="link" target="_blank" href="https://laird.substack.com">Blog</a>
   </div>
 
   <div class="solid"></div>
@@ -47,20 +48,30 @@ layout: default
 <h1 id="About">About</h2>
 <p>
   <img src="./headshot.png" alt="Headshot" style="width:200px;height:200px;margin: 0px 0px 0px 20px;" align="right">
-  Originially from Denver, I moved to Atlanta to study math and economics at Emory. My interest in math and finance shifted toward tecchnology and product management during an internship where I worked closely with my team’s product manager. This led me to pursue another bachelor’s degree in computer engineering at Georgia Tech and to develop my product experience through internships. I’ve gathered data science skills through coursework, projects, and an internship, leadership skills as an Eagle Scout and head of a research team, and communication skills as a peer tutor and writer. 
+  Originally from Denver, I came to Atlanta to study in the dual degree program between Emory and Georgia Tech. I studied math and economics at Emory, pursuing extracurriculars and internships in business and finance. Those interests shifted to technology and product management as I completed my second degree in computer engineering; I explored coursework in software, interned as a product manager, and joined a VR startup. 
 </p>  
+
+<!-- EXPERIENCE -->
+<h1 id="Experience">Work Experience</h2>
+  {% include card_list.html collection=site.data.home.old_project_entries %}
+  
+  <!-- EDUCATION -->
+  <h1 id="Education">Education</h2>
+
+    B.S. in Computer Engineering @ Georgia Institute of Technology
+    <ul>
+      <li><i>Tau Beta Pi (Engineering Honor Society), Contextual Computing Group</i></li>
+    </ul>  
+
+    B.S. in Applied Math and Statistics, Minor in Economics @ Emory University
+      <ul>
+        <li><i>AKPsi (Buisness Fraternity), OΔE (Economics Honor Society), Club Basketball</i></li>
+      </ul>  
+    <!--{% include vertical_list.html collection=site.data.home.education %}  -->
 
 <!-- PROJECT SECTION -->
 <h1>Projects</h2>
   {% include big_card_list.html collection=site.data.home.projects %}
-
-<!-- EXPERIENCE -->
-<h1 id="Experience">Work Experience</h2>
-{% include card_list.html collection=site.data.home.old_project_entries %}
-
-<!-- EDUCATION -->
-<h1 id="Education">Education</h2>
-  {% include vertical_list.html collection=site.data.home.education %}
 
 <!-- CREDITS -->
 <div class="credits">
