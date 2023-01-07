@@ -30,7 +30,7 @@ education:
 old_project_entries:
   - title: Product Manager @ZenVR
     url: https://www.zenvrapp.com
-    desc: Summer 2022 - Present
+    desc: Summer 2022 - Fall 2022
     img: ./ZenVR.png
 
   - title: Software Product Management Intern 
@@ -71,7 +71,7 @@ footer_entries:
   - title: Email
     url: mailto:laird.stewart@gatech.edu 
 
-  - title: Blog
+  - title: Substack
     url: https://laird.substack.com 
 
 research:  
