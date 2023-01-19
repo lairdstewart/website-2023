@@ -85,7 +85,7 @@ research:
 
 projects:
   - title: Toward Optimal Real Time Head Worn Display Captioning Width
-    url: MUC
+    url: muc
     desc: Fall 2022
     img: ./muc_square.png
   
